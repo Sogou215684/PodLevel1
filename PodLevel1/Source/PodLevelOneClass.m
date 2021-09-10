@@ -7,6 +7,10 @@
 
 #import "PodLevelOneClass.h"
 
+#ifndef SG_POD_CONFIG
+#define SIIMG_EXPRESSION_PRESSED 1
+#endif
+
 @implementation PodLevelOneClass
 
 + (void)doPrint {
@@ -21,6 +25,8 @@
 #else
     printf("mdm---%s SG_POD_CONFIG is not true\n", __func__);
 #endif
+    
+    printf("mdm---%s %ld\n", __func__, SIIMG_EXPRESSION_PRESSED);
     
 }
 
