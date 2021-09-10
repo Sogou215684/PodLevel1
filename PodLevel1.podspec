@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   # 仓库名称
   s.name         = 'PodLevel1'
   # 当前版本(与tag一致)
-  s.version = '0.0.1'
+  s.version = '0.0.2'
   # 仓库简介
   s.summary      = '测试Pod'
 
